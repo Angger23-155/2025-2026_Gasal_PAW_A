@@ -1,0 +1,139 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background: #f8f9fa;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.judul-rekap {
+  text-align: center;
+  color: #003366; /* biru tua */
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-weight: bold;
+  background-color: #cfe2ff;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 2px solid #003366;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+h3 {
+  background: #e9ecef;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+/* Tombol bagian atas kiri */
+.top-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.btn-blue {
+  background-color: #003366;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.sub-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-orange, button {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-orange:hover, button:hover {
+  background-color: #e68900;
+}
+.btn-tampilkan, button {
+  background-color: #009dff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-tampilkan:hover, button:hover {
+  background-color: #00459f;
+}
+
+/* Halaman awal */
+.home-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.home-container p {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+/* Tabel total keseluruhan */
+.table-total {
+  width: 50%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-weight: bold;
+  color: #003366; /* Font biru tua */
+}
+
+.table-total th, .table-total td {
+  border: 2px solid #003366;
+  padding: 10px;
+  text-align: center;
+}
+
+.table-total tr {
+  background-color: #cfe2ff; /* Biru muda */
+}
+
+@media print {
+  form, .top-buttons {
+    display: none;
+  }
+}
